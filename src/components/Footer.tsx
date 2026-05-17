@@ -25,7 +25,7 @@ const cols = [
     links: [
       { href: '/shipping', label: 'Shipping & Returns' },
       { href: '/contact', label: 'Contact' },
-      { href: '/faq', label: 'Subscriptions' },
+      { href: '/subscriptions', label: 'Subscriptions' },
       { href: '/privacy', label: 'Privacy' },
     ],
   },
