@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
     category: 'Wellness',
     readTime: '7 min',
     date: '2026-04-08',
-    cover: 'https://images.unsplash.com/photo-1603725038789-2e0b7b3b80b9?auto=format&fit=crop&w=1400&q=80',
+    cover: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=1400&q=80',
     body: `The skin-gut connection isn't a wellness trend — it's published science. Here's how to use it...`,
   },
   {
