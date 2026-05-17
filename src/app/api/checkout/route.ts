@@ -24,7 +24,7 @@ export async function POST(req: Request) {
           currency: 'usd',
           unit_amount: Math.round(l.price * 100),
           product_data: {
-            name: l.title + (l.subscription ? ' — Subscribe & Save' : ''),
+            name: l.title + (l.subscription ? ', Subscribe & Save' : ''),
             images: l.image.startsWith('http') ? [l.image] : [`${base}${l.image}`],
             metadata: { productId: l.productId, slug: l.slug, subscription: String(l.subscription) },
           },

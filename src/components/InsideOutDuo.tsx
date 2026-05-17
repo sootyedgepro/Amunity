@@ -41,7 +41,7 @@ export default function InsideOutDuo() {
               One outside. One inside. <span className="italic text-plum">Always together.</span>
             </h2>
             <p className="mt-4 text-muted">
-              Pair a topical with its cellular partner — that's where the compound effect lives. Save 15%
+              Pair a topical with its cellular partner, that's where the compound effect lives. Save 15%
               when you build any duo.
             </p>
           </div>

@@ -23,10 +23,10 @@ export default function PrivacyPage() {
 
           <h2 className="font-serif text-2xl">What we collect</h2>
           <ul className="space-y-2 text-ink/80">
-            <li>• <strong>Order information</strong> — name, email, shipping address, phone, items purchased.</li>
-            <li>• <strong>Payment information</strong> — handled entirely by Stripe. We never see or store card numbers; Stripe returns us only a token and the last four digits.</li>
-            <li>• <strong>Account / marketing</strong> — email if you sign up for our newsletter or create an account.</li>
-            <li>• <strong>Usage data</strong> — pages visited, products viewed, device/browser type, IP address, via standard analytics cookies.</li>
+            <li>• <strong>Order information</strong>, name, email, shipping address, phone, items purchased.</li>
+            <li>• <strong>Payment information</strong>, handled entirely by Stripe. We never see or store card numbers; Stripe returns us only a token and the last four digits.</li>
+            <li>• <strong>Account / marketing</strong>, email if you sign up for our newsletter or create an account.</li>
+            <li>• <strong>Usage data</strong>, pages visited, products viewed, device/browser type, IP address, via standard analytics cookies.</li>
           </ul>
 
           <h2 className="font-serif text-2xl">How we use it</h2>
@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             <li>• To fulfill and ship your orders.</li>
             <li>• To send order confirmations, shipping notifications, and receipts.</li>
             <li>• To respond to support requests.</li>
-            <li>• To send marketing emails — only if you've explicitly opted in. You can unsubscribe from every email.</li>
+            <li>• To send marketing emails, only if you've explicitly opted in. You can unsubscribe from every email.</li>
             <li>• To improve the site (analytics, abandoned-cart recovery, fraud prevention).</li>
           </ul>
 
@@ -44,10 +44,10 @@ export default function PrivacyPage() {
             business:
           </p>
           <ul className="space-y-2 text-ink/80">
-            <li>• <strong>Stripe</strong> — payment processing</li>
-            <li>• <strong>Fulfillment partners</strong> — name + shipping address only, to deliver your order</li>
-            <li>• <strong>Email & analytics platforms</strong> — Klaviyo, Google Analytics, Meta Pixel (if opted in)</li>
-            <li>• <strong>Hosting</strong> — Vercel</li>
+            <li>• <strong>Stripe</strong>, payment processing</li>
+            <li>• <strong>Fulfillment partners</strong>, name + shipping address only, to deliver your order</li>
+            <li>• <strong>Email & analytics platforms</strong>, Klaviyo, Google Analytics, Meta Pixel (if opted in)</li>
+            <li>• <strong>Hosting</strong>, Vercel</li>
           </ul>
           <p className="text-ink/80">
             We do <strong>not</strong> sell your personal information. Period.
@@ -57,7 +57,7 @@ export default function PrivacyPage() {
           <p className="text-ink/80">
             We use cookies to remember your cart, run analytics, and (with your consent) personalize
             marketing. You can decline non-essential cookies via the banner at the bottom of the site.
-            Essential cookies (cart, checkout, fraud prevention) cannot be disabled — the site can't
+            Essential cookies (cart, checkout, fraud prevention) cannot be disabled, the site can't
             function without them.
           </p>
 
@@ -67,13 +67,13 @@ export default function PrivacyPage() {
             your data, and to opt out of certain processing. Specifically:
           </p>
           <ul className="space-y-2 text-ink/80">
-            <li>• <strong>California (CCPA/CPRA)</strong> — right to know, delete, correct, and opt out of "sale" or "sharing" (we don't sell).</li>
-            <li>• <strong>EU/UK (GDPR)</strong> — right to access, rectification, erasure, restriction, portability, and to object to processing.</li>
-            <li>• <strong>All customers</strong> — right to unsubscribe from marketing at any time.</li>
+            <li>• <strong>California (CCPA/CPRA)</strong>, right to know, delete, correct, and opt out of "sale" or "sharing" (we don't sell).</li>
+            <li>• <strong>EU/UK (GDPR)</strong>, right to access, rectification, erasure, restriction, portability, and to object to processing.</li>
+            <li>• <strong>All customers</strong>, right to unsubscribe from marketing at any time.</li>
           </ul>
           <p className="text-ink/80">
             Email <a className="underline" href="mailto:privacy@amunity.store">privacy@amunity.store</a> with
-            any request — we respond within 30 days.
+            any request, we respond within 30 days.
           </p>
 
           <h2 className="font-serif text-2xl">Data retention</h2>

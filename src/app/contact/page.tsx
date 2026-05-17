@@ -3,7 +3,7 @@ import { Mail, MessageCircle, Instagram } from 'lucide-react';
 
 export const metadata = buildMetadata({
   title: 'Contact',
-  description: 'Reach the AmunitY team — questions, press, partnerships.',
+  description: 'Reach the AmunitY team, questions, press, partnerships.',
   path: '/contact',
 });
 
@@ -21,7 +21,7 @@ export default function ContactPage() {
           <span className="chip">Talk to us</span>
           <h1 className="h-display mt-4 text-5xl sm:text-6xl">Get in touch.</h1>
           <p className="mt-4 max-w-md text-muted">
-            Real humans answer every email — usually within 24 hours, always with care.
+            Real humans answer every email, usually within 24 hours, always with care.
           </p>
           <div className="mt-10 space-y-4">
             {channels.map((c) => (

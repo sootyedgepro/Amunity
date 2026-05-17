@@ -36,7 +36,7 @@ export default function EmailCapture() {
             Get 15% off your first <span className="italic text-plum-soft">duo.</span>
           </h2>
           <p className="mt-4 max-w-md text-cream/70">
-            Pair a beauty booster with an immunity builder — plus early access to launches, ingredient
+            Pair a beauty booster with an immunity builder, plus early access to launches, ingredient
             deep-dives, and rituals worth keeping.
           </p>
         </div>

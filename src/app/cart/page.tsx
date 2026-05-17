@@ -11,7 +11,7 @@ export default function CartPage() {
     return (
       <div className="container-x py-24 text-center">
         <h1 className="h-display text-5xl">Your bag is empty.</h1>
-        <p className="mt-4 text-muted">Build a ritual — your skin will thank you.</p>
+        <p className="mt-4 text-muted">Build a ritual, your skin will thank you.</p>
         <Link href="/shop" className="btn-primary mt-8">
           Shop the collection
         </Link>

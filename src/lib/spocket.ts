@@ -1,7 +1,7 @@
 /**
  * Spocket dropshipping adapter.
  *
- * Spocket primarily integrates as a Shopify app — products, inventory,
+ * Spocket primarily integrates as a Shopify app, products, inventory,
  * and order routing flow through Shopify automatically. This module
  * exists for the (rarer) headless / Next.js direct path: pulling product
  * data via Spocket's API and pushing orders for fulfillment.

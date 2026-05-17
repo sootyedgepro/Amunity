@@ -35,7 +35,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
       <div className="mx-auto mt-12 max-w-3xl space-y-5 text-lg leading-relaxed text-ink/85">
         <p>{post.body}</p>
         <p>
-          The full editorial is published every other Tuesday — subscribe to The Ritual newsletter to get
+          The full editorial is published every other Tuesday, subscribe to The Ritual newsletter to get
           ingredient breakdowns, routine builds, and our research roundup directly.
         </p>
       </div>

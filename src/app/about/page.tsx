@@ -5,7 +5,7 @@ import Reveal from '@/components/Reveal';
 
 export const metadata = buildMetadata({
   title: 'Our Story',
-  description: 'Why we built AmunitY — a wellness brand that takes ingredients, sourcing, and your skin barrier seriously.',
+  description: 'Why we built AmunitY, a wellness brand that takes ingredients, sourcing, and your skin barrier seriously.',
   path: '/about',
 });
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[28px] shadow-lift sm:aspect-[16/10] lg:aspect-[16/9]">
             <Image
               src="/images/about/collage.png"
-              alt="The AmunitY collection — skincare, supplements, gummies, and strips arranged with botanicals"
+              alt="The AmunitY collection, skincare, supplements, gummies, and strips arranged with botanicals"
               fill
               priority
               sizes="(min-width: 1024px) 1240px, 100vw"
@@ -51,17 +51,17 @@ export default function AboutPage() {
           <h2 className="h-display text-3xl">A letter from the founder</h2>
           <div className="mt-5 space-y-4 leading-relaxed text-ink/80">
             <p>
-              Hi, friend — I'm so glad you're here. If you've ever felt dull, drained, or like a stranger
+              Hi, friend, I'm so glad you're here. If you've ever felt dull, drained, or like a stranger
               in your own skin, you are not alone, and you are exactly where you're meant to be.
             </p>
             <p>
-              A few years ago my body started fighting itself. Autoimmune doesn't show up as one symptom —
+              A few years ago my body started fighting itself. Autoimmune doesn't show up as one symptom -
               it shows up as exhaustion you can't sleep off, skin that won't behave, and a mirror that
               stops feeling like yours. I tried everything. No one connected what was happening on my
               face to what was happening inside my body.
             </p>
             <p>
-              I built AmunitY because I refused to accept that <em>tired and dull</em> was my new normal —
+              I built AmunitY because I refused to accept that <em>tired and dull</em> was my new normal -
               and I know I'm not the only one. Real concentrations. Clean ingredients. Skin from the
               outside, strength from the inside. One ritual.
             </p>
@@ -69,7 +69,7 @@ export default function AboutPage() {
               You deserve to feel beautiful in the body you're in. You deserve energy that doesn't crash.
               You deserve to look in the mirror and recognize yourself again. That's why this exists.
             </p>
-            <p className="font-serif text-xl text-plum">— Ashley Bowman, Founder</p>
+            <p className="font-serif text-xl text-plum">- Ashley Bowman, Founder</p>
           </div>
         </Reveal>
         <Reveal delay={120}>

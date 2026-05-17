@@ -15,17 +15,17 @@ const groups = [
       { n: 'Stabilized Vitamin C', b: 'Brightens, fades dark spots, defends against oxidative stress (Dark Spot Serums).' },
       { n: 'Niacinamide', b: 'Evens tone, strengthens barrier, calms reactive skin.' },
       { n: 'Matrixyl 3000 + Argireline', b: 'Peptides that signal collagen synthesis and smooth expression lines (Peptide Moisturizer).' },
-      { n: 'Hyaluronic Acid (multi-MW)', b: 'Pulls water into multiple layers — plump, dewy hydration (Watermelon Moisturizer).' },
+      { n: 'Hyaluronic Acid (multi-MW)', b: 'Pulls water into multiple layers, plump, dewy hydration (Watermelon Moisturizer).' },
       { n: 'Grass-Fed Beef Tallow', b: 'Skin-identical fats with vitamins A, D, E, K. Recognized at the cellular level (Tallow Cream).' },
-      { n: 'Real Lavender + Lemongrass', b: 'Authentic essential oils — calming aromatherapy and gentle antibacterial action.' },
+      { n: 'Real Lavender + Lemongrass', b: 'Authentic essential oils, calming aromatherapy and gentle antibacterial action.' },
     ],
   },
   {
     title: 'Supplement & gummy actives',
     items: [
-      { n: '30+ Whole-Food Fruits & Vegetables', b: 'Polyphenols, vitamins, and phytonutrients from real produce — not synthetic isolates (Fruits and Veggies).' },
+      { n: '30+ Whole-Food Fruits & Vegetables', b: 'Polyphenols, vitamins, and phytonutrients from real produce, not synthetic isolates (Fruits and Veggies).' },
       { n: 'Hydrolyzed Collagen Peptides + Biotin', b: 'Supports skin elasticity, hair density, nail keratin (Beauty + Collagen Strips, Hair Skin Nails Strips).' },
-      { n: 'Functional Mushrooms — Reishi, Lion\'s Mane, Cordyceps', b: 'Adaptogenic, nootropic, and immune-supportive (Reishi Drops, Mushroom Focus, Cordyceps Energy).' },
+      { n: 'Functional Mushrooms, Reishi, Lion\'s Mane, Cordyceps', b: 'Adaptogenic, nootropic, and immune-supportive (Reishi Drops, Mushroom Focus, Cordyceps Energy).' },
       { n: 'Ginkgo Biloba + Ginseng', b: 'Cerebral circulation and clean adaptogenic energy.' },
       { n: 'Probiotic Blend (5 Billion CFU) + Prebiotics', b: 'Gut-skin-immune axis support, shelf-stable (Probiotic + Metabolism Strips).' },
       { n: 'Melatonin (low-dose) + L-Theanine', b: 'Faster sleep onset, deeper rest, no grogginess (Sleep Strips).' },
@@ -74,7 +74,7 @@ export default function SciencePage() {
           <p className="mt-4 max-w-3xl text-cream/80">
             More than 70% of immune cells live in the gut. The state of your microbiome shapes inflammation,
             barrier integrity, and even how your skin responds to topicals. That's why every AmunitY ritual
-            pairs a topical with a cellular companion — they compound.
+            pairs a topical with a cellular companion, they compound.
           </p>
           <Link href="/blog/gut-skin-axis" className="btn-gold mt-8">
             Read the deep-dive

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const p = getProduct(params.slug);
   if (!p) return {};
   return buildMetadata({
-    title: `${p.title} — ${p.tagline}`,
+    title: `${p.title}, ${p.tagline}`,
     description: p.shortDescription,
     path: `/products/${p.slug}`,
     image: p.images[0],
@@ -104,7 +104,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                       <ul className="space-y-3">
                         {product.ingredients.map((i) => (
                           <li key={i.name}>
-                            <strong className="text-ink">{i.name}</strong> — {i.benefit}
+                            <strong className="text-ink">{i.name}</strong>, {i.benefit}
                           </li>
                         ))}
                       </ul>
@@ -146,7 +146,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                   <h3 className="mt-3 font-serif text-lg">{r.title}</h3>
                   <p className="mt-2 text-sm text-ink/80">{r.body}</p>
                   <p className="mt-4 text-xs text-muted">
-                    — {r.author}{r.verified && ' · Verified Buyer'} · {r.date}
+                   , {r.author}{r.verified && ' · Verified Buyer'} · {r.date}
                   </p>
                 </article>
               ))}

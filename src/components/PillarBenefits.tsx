@@ -8,7 +8,7 @@ const pillars = [
     eyebrow: 'Beauty boosters',
     title: 'Visible glow, not gimmicks.',
     body:
-      'Real concentrations of clinical actives — 15% vitamin C, 0.3% retinol, 2.5g marine collagen — at levels proven to brighten, smooth, and firm.',
+      'Real concentrations of clinical actives, 15% vitamin C, 0.3% retinol, 2.5g marine collagen, at levels proven to brighten, smooth, and firm.',
   },
   {
     icon: Shield,
@@ -16,7 +16,7 @@ const pillars = [
     eyebrow: 'Immunity builders',
     title: 'Defense at a cellular level.',
     body:
-      'Black elderberry, zinc, vitamin D3, and probiotic strains that train the immune system the way it was meant to be trained — daily, gently, year-round.',
+      'Black elderberry, zinc, vitamin D3, and probiotic strains that train the immune system the way it was meant to be trained, daily, gently, year-round.',
   },
   {
     icon: Leaf,
@@ -38,7 +38,7 @@ export default function PillarBenefits() {
             Beauty + Immunity, <span className="italic text-plum">engineered to compound.</span>
           </h2>
           <p className="mt-4 text-muted">
-            Most wellness brands sell you one half of the equation. We built the system that does both — at
+            Most wellness brands sell you one half of the equation. We built the system that does both, at
             clinical concentrations, with clean ingredients.
           </p>
         </div>

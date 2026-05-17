@@ -52,9 +52,9 @@ function ShopInner() {
 
   const subhead = {
     all: 'Beauty boosters that brighten and firm. Immunity builders that defend at a cellular level. Filter for what your ritual needs today.',
-    skincare: 'Clinical-grade serums, moisturizers, and ancestral formulations — engineered to work on the skin barrier, not against it.',
-    supplements: 'Whole-food capsules and adaptogenic blends — daily nutrition that fills the gaps your diet leaves behind.',
-    gummies: 'Dissolvable strips and gummies. Beauty, immunity, sleep, and focus — delivered without pills or powders.',
+    skincare: 'Clinical-grade serums, moisturizers, and ancestral formulations, engineered to work on the skin barrier, not against it.',
+    supplements: 'Whole-food capsules and adaptogenic blends, daily nutrition that fills the gaps your diet leaves behind.',
+    gummies: 'Dissolvable strips and gummies. Beauty, immunity, sleep, and focus, delivered without pills or powders.',
     best: 'The rituals our community keeps reordering. Start here.',
   }[cat] ?? '';
 

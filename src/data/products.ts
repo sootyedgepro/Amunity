@@ -20,9 +20,9 @@ export const products: Product[] = [
     bestSeller: true,
     images: ['/images/products/fruits-and-veggies.png'],
     shortDescription:
-      'The antioxidant power of 30+ whole fruits and vegetables in one daily capsule — real produce, no synthetic fillers.',
+      'The antioxidant power of 30+ whole fruits and vegetables in one daily capsule, real produce, no synthetic fillers.',
     longDescription:
-      'Get the antioxidant power of 30+ whole fruits and vegetables in one daily capsule. Packed with vitamins, minerals, and phytonutrients sourced from real produce — not synthetic fillers — this is your shortcut to filling the nutritional gaps your diet leaves behind. Best for busy lifestyles, picky eaters, anyone who knows they should eat more greens but doesn\'t.',
+      'Get the antioxidant power of 30+ whole fruits and vegetables in one daily capsule. Packed with vitamins, minerals, and phytonutrients sourced from real produce, not synthetic fillers, this is your shortcut to filling the nutritional gaps your diet leaves behind. Best for busy lifestyles, picky eaters, anyone who knows they should eat more greens but doesn\'t.',
     ingredients: [
       { name: '30+ Whole-Food Fruits & Vegetables', benefit: 'Broad-spectrum vitamins, minerals, and polyphenols' },
       { name: 'Natural Antioxidants', benefit: 'Defends cells from daily oxidative stress' },
@@ -47,7 +47,7 @@ export const products: Product[] = [
     subscriptionPrice: sub(10.45),
     images: ['/images/products/ginkgo-biloba-ginseng.png'],
     shortDescription:
-      'A time-tested duo for cognitive clarity and clean, balanced energy — without the caffeine crash.',
+      'A time-tested duo for cognitive clarity and clean, balanced energy, without the caffeine crash.',
     longDescription:
       'A time-tested duo backed by centuries of traditional use and modern research. Ginkgo Biloba supports healthy circulation and cognitive clarity, while Ginseng delivers clean, balanced energy without the crash. Best for students, professionals, and anyone who needs to stay sharp from 9 AM to 9 PM.',
     ingredients: [
@@ -55,7 +55,7 @@ export const products: Product[] = [
       { name: 'Panax Ginseng Root', benefit: 'Adaptogenic energy without jitters' },
       { name: 'Standardized Flavone Glycosides', benefit: 'Clinically researched cognitive support' },
     ],
-    howToUse: ['Take 1 capsule in the morning', 'Optional second dose before mental work', 'Avoid late evening — supports daytime energy'],
+    howToUse: ['Take 1 capsule in the morning', 'Optional second dose before mental work', 'Avoid late evening, supports daytime energy'],
     size: '60 capsules · 60-day supply',
     rating: 4.7,
     reviewCount: 936,
@@ -67,7 +67,7 @@ export const products: Product[] = [
   {
     id: 'sk-001',
     slug: 'dark-spot-serum-normal',
-    title: 'Dark Spot Serum — Normal Skin',
+    title: 'Dark Spot Serum, Normal Skin',
     tagline: 'Fade the past. Even the future.',
     category: 'skincare',
     price: 10.39,
@@ -76,9 +76,9 @@ export const products: Product[] = [
     bestSeller: true,
     images: ['/images/products/dark-spot-serum-normal.png'],
     shortDescription:
-      'Targeted brightening serum that fades dark spots, hyperpigmentation, and uneven tone — clearer, more luminous skin.',
+      'Targeted brightening serum that fades dark spots, hyperpigmentation, and uneven tone, clearer, more luminous skin.',
     longDescription:
-      'A targeted brightening serum formulated to fade dark spots, hyperpigmentation, and uneven tone — leaving skin visibly clearer and luminous. Lightweight, fast-absorbing, and built for daily use. Best for normal skin types dealing with sun spots, age spots, or post-blemish discoloration.',
+      'A targeted brightening serum formulated to fade dark spots, hyperpigmentation, and uneven tone, leaving skin visibly clearer and luminous. Lightweight, fast-absorbing, and built for daily use. Best for normal skin types dealing with sun spots, age spots, or post-blemish discoloration.',
     ingredients: [
       { name: 'Stabilized Vitamin C', benefit: 'Brightens, fades dark spots, neutralizes free radicals' },
       { name: 'Niacinamide', benefit: 'Evens tone and minimizes pigment transfer' },
@@ -95,7 +95,7 @@ export const products: Product[] = [
   {
     id: 'sk-002',
     slug: 'dark-spot-serum-sensitive',
-    title: 'Dark Spot Serum — Sensitive Skin',
+    title: 'Dark Spot Serum, Sensitive Skin',
     tagline: 'Brightening power. Zero irritation.',
     category: 'skincare',
     price: 10.39,
@@ -109,7 +109,7 @@ export const products: Product[] = [
     ingredients: [
       { name: 'Encapsulated Niacinamide', benefit: 'Time-released for tolerance, evens tone' },
       { name: 'Centella Asiatica', benefit: 'Calms redness and reactive skin' },
-      { name: 'Licorice Root Extract', benefit: 'Botanical brightener — gentle on barriers' },
+      { name: 'Licorice Root Extract', benefit: 'Botanical brightener, gentle on barriers' },
       { name: 'Madecassoside', benefit: 'Repairs and soothes irritated skin' },
     ],
     howToUse: ['Patch test on inner forearm before first use', 'Apply 3–4 drops to clean, dry skin AM and PM', 'Always pair with daily SPF'],
@@ -134,12 +134,12 @@ export const products: Product[] = [
     shortDescription:
       'Lightweight, watermelon-infused gel-cream that drenches thirsty skin and locks in moisture without the heavy feel.',
     longDescription:
-      'Drench thirsty skin in lightweight, watermelon-infused hydration. This juicy moisturizer locks in moisture without the heavy feel, leaving skin plump, dewy, and visibly refreshed all day. Wears beautifully under makeup. Best for all skin types — especially dehydrated, dull, or summer-stressed skin.',
+      'Drench thirsty skin in lightweight, watermelon-infused hydration. This juicy moisturizer locks in moisture without the heavy feel, leaving skin plump, dewy, and visibly refreshed all day. Wears beautifully under makeup. Best for all skin types, especially dehydrated, dull, or summer-stressed skin.',
     ingredients: [
       { name: 'Watermelon Fruit Extract', benefit: 'Antioxidant-rich, naturally hydrating' },
       { name: 'Hyaluronic Acid (multi-MW)', benefit: 'Pulls water into multiple layers of skin' },
       { name: 'Squalane', benefit: 'Non-comedogenic moisture seal' },
-      { name: 'Glycerin', benefit: 'Humectant — keeps skin plump and dewy' },
+      { name: 'Glycerin', benefit: 'Humectant, keeps skin plump and dewy' },
     ],
     howToUse: ['Apply morning and night to damp skin', 'Layer over serums, before SPF', 'Use a nickel-sized amount for face and neck'],
     size: '50 ml',
@@ -161,13 +161,13 @@ export const products: Product[] = [
     shortDescription:
       'Adaptogenic Reishi sublingual drops for stress relief, restful sleep, and immune balance. A few drops, and your nervous system exhales.',
     longDescription:
-      'Harnessing the ancient power of Reishi — the "mushroom of immortality" — these calming drops support stress relief, restful sleep, and immune balance. A few drops, and your nervous system exhales. Best for anyone navigating burnout, racing thoughts, or restless nights.',
+      'Harnessing the ancient power of Reishi, the "mushroom of immortality", these calming drops support stress relief, restful sleep, and immune balance. A few drops, and your nervous system exhales. Best for anyone navigating burnout, racing thoughts, or restless nights.',
     ingredients: [
-      { name: 'Reishi Mushroom Extract', benefit: 'Adaptogenic — modulates stress response' },
+      { name: 'Reishi Mushroom Extract', benefit: 'Adaptogenic, modulates stress response' },
       { name: 'Triterpenes & Beta-Glucans', benefit: 'Immune-supportive bioactives' },
       { name: 'Organic MCT Oil Carrier', benefit: 'Optimizes sublingual absorption' },
     ],
-    howToUse: ['1 ml under the tongue, hold for 30 seconds', 'Take 30–60 min before bed for sleep support', 'Daily use compounds — most feel changes in 14 days'],
+    howToUse: ['1 ml under the tongue, hold for 30 seconds', 'Take 30–60 min before bed for sleep support', 'Daily use compounds, most feel changes in 14 days'],
     size: '30 ml dropper',
     rating: 4.7,
     reviewCount: 612,
@@ -177,7 +177,7 @@ export const products: Product[] = [
   {
     id: 'sk-005',
     slug: 'tallow-cream-lemongrass-lavender',
-    title: 'Tallow Cream — Lemongrass & Lavender',
+    title: 'Tallow Cream, Lemongrass & Lavender',
     tagline: 'Old-world skincare. New-world glow.',
     category: 'skincare',
     price: 12.35,
@@ -185,16 +185,16 @@ export const products: Product[] = [
     subscriptionPrice: sub(12.35),
     images: ['/images/products/tallow-cream-lemongrass-lavender.png'],
     shortDescription:
-      'Grass-fed beef tallow whipped with lemongrass + lavender essential oils — ancestral, nutrient-dense, deeply nourishing.',
+      'Grass-fed beef tallow whipped with lemongrass + lavender essential oils, ancestral, nutrient-dense, deeply nourishing.',
     longDescription:
-      'Grass-fed beef tallow whipped with pure lemongrass and lavender essential oils — a nutrient-dense, ancestral moisturizer your skin recognizes on a cellular level. Deeply nourishing, naturally healing, and incredibly luxurious. Free from seed oils, fillers, and synthetics. Best for clean-beauty enthusiasts and dry, mature, or compromised skin.',
+      'Grass-fed beef tallow whipped with pure lemongrass and lavender essential oils, a nutrient-dense, ancestral moisturizer your skin recognizes on a cellular level. Deeply nourishing, naturally healing, and incredibly luxurious. Free from seed oils, fillers, and synthetics. Best for clean-beauty enthusiasts and dry, mature, or compromised skin.',
     ingredients: [
-      { name: 'Grass-Fed Beef Tallow', benefit: 'Skin-identical fats — vitamins A, D, E, K' },
+      { name: 'Grass-Fed Beef Tallow', benefit: 'Skin-identical fats, vitamins A, D, E, K' },
       { name: 'Lemongrass Essential Oil', benefit: 'Brightening, naturally antibacterial' },
       { name: 'Lavender Essential Oil', benefit: 'Calming aromatherapy, soothes irritation' },
       { name: 'No Seed Oils, No Fillers', benefit: 'Bioavailable to the skin barrier' },
     ],
-    howToUse: ['Warm a pea-sized amount between fingers', 'Massage into clean skin morning or night', 'A little goes a long way — concentrated formula'],
+    howToUse: ['Warm a pea-sized amount between fingers', 'Massage into clean skin morning or night', 'A little goes a long way, concentrated formula'],
     size: '60 ml jar',
     rating: 4.9,
     reviewCount: 798,
@@ -215,7 +215,7 @@ export const products: Product[] = [
     shortDescription:
       'Next-generation moisturizer powered by peptides that signal skin to firm, plump, and rebuild. Hydration that works.',
     longDescription:
-      'A next-generation moisturizer powered by skin-loving peptides that signal your skin to firm, plump, and rebuild. Hydration that doesn\'t just sit on the surface — it works. Suitable for AM and PM routines. Best for anyone serious about anti-aging without the harsh actives.',
+      'A next-generation moisturizer powered by skin-loving peptides that signal your skin to firm, plump, and rebuild. Hydration that doesn\'t just sit on the surface, it works. Suitable for AM and PM routines. Best for anyone serious about anti-aging without the harsh actives.',
     ingredients: [
       { name: 'Matrixyl 3000', benefit: 'Stimulates collagen synthesis' },
       { name: 'Argireline', benefit: 'Smooths expression lines' },
@@ -240,9 +240,9 @@ export const products: Product[] = [
     subscriptionPrice: sub(8.15),
     images: ['/images/products/calming-lavender-soap.png'],
     shortDescription:
-      'Handcrafted lavender soap — gentle cleanse, real aromatherapy, no sulfates or synthetic fragrance.',
+      'Handcrafted lavender soap, gentle cleanse, real aromatherapy, no sulfates or synthetic fragrance.',
     longDescription:
-      'A handcrafted lavender soap that gently cleanses while calming the senses. Made with skin-loving oils and real lavender — no sulfates, no synthetic fragrance, no nonsense. Best for anyone who wants their daily wash to feel like a spa moment.',
+      'A handcrafted lavender soap that gently cleanses while calming the senses. Made with skin-loving oils and real lavender, no sulfates, no synthetic fragrance, no nonsense. Best for anyone who wants their daily wash to feel like a spa moment.',
     ingredients: [
       { name: 'Real Lavender Buds & Oil', benefit: 'Calming aromatherapy from authentic source' },
       { name: 'Olive & Coconut Oils', benefit: 'Hydrating, non-stripping cleanse' },
@@ -270,9 +270,9 @@ export const products: Product[] = [
     bestSeller: true,
     images: ['/images/products/hair-skin-nails-strips.png'],
     shortDescription:
-      'Dissolvable strips with biotin, collagen-supporting nutrients, and key vitamins — for stronger nails, glossier hair, and glowing skin.',
+      'Dissolvable strips with biotin, collagen-supporting nutrients, and key vitamins, for stronger nails, glossier hair, and glowing skin.',
     longDescription:
-      'Forget chalky pills. These dissolvable strips deliver biotin, collagen-supporting nutrients, and key vitamins exactly where you need them — for stronger nails, glossier hair, and glowing skin. No water. No mess. Just results. Best for anyone chasing the inside-out glow.',
+      'Forget chalky pills. These dissolvable strips deliver biotin, collagen-supporting nutrients, and key vitamins exactly where you need them, for stronger nails, glossier hair, and glowing skin. No water. No mess. Just results. Best for anyone chasing the inside-out glow.',
     ingredients: [
       { name: 'Biotin (5000mcg)', benefit: 'Hair growth and nail keratin synthesis' },
       { name: 'Vitamin C', benefit: 'Cofactor for collagen production' },
@@ -297,9 +297,9 @@ export const products: Product[] = [
     subscriptionPrice: sub(9.79),
     images: ['/images/products/cordyceps-energy-gummies.png'],
     shortDescription:
-      'Cordyceps mushroom in a gummy — natural endurance, oxygen utilization, and stamina. No caffeine, no crash.',
+      'Cordyceps mushroom in a gummy, natural endurance, oxygen utilization, and stamina. No caffeine, no crash.',
     longDescription:
-      'Forget the crash. Cordyceps mushroom is nature\'s pre-workout — boosting stamina, oxygen utilization, and endurance the way your body actually wants. Bonus: it tastes like a treat. Best for athletes, biohackers, and anyone done riding the coffee rollercoaster.',
+      'Forget the crash. Cordyceps mushroom is nature\'s pre-workout, boosting stamina, oxygen utilization, and endurance the way your body actually wants. Bonus: it tastes like a treat. Best for athletes, biohackers, and anyone done riding the coffee rollercoaster.',
     ingredients: [
       { name: 'Cordyceps Militaris Extract', benefit: 'Supports VO2 max and oxygen utilization' },
       { name: 'Adaptogenic Cofactors', benefit: 'Reduces fatigue at the cellular level' },
@@ -352,7 +352,7 @@ export const products: Product[] = [
     shortDescription:
       'Beauty-boosting collagen support + skin-loving nutrients in seconds. No shakes, no powders, no routine.',
     longDescription:
-      'Skip the protein-shake-style collagen routine. These strips deliver beauty-boosting collagen support and skin-loving nutrients in seconds — for firmer skin, stronger hair, and a glow you can taste. Best for glow-getters who want collagen results without the routine.',
+      'Skip the protein-shake-style collagen routine. These strips deliver beauty-boosting collagen support and skin-loving nutrients in seconds, for firmer skin, stronger hair, and a glow you can taste. Best for glow-getters who want collagen results without the routine.',
     ingredients: [
       { name: 'Hydrolyzed Collagen Peptides', benefit: 'Supports skin elasticity and dermal density' },
       { name: 'Hyaluronic Acid', benefit: 'Hydrates from within' },
@@ -377,9 +377,9 @@ export const products: Product[] = [
     subscriptionPrice: sub(11.4),
     images: ['/images/products/probiotic-metabolism-strips.png'],
     shortDescription:
-      'Live-active probiotics + metabolism support in a dissolvable strip. Balanced gut, efficient body — shelf-stable.',
+      'Live-active probiotics + metabolism support in a dissolvable strip. Balanced gut, efficient body, shelf-stable.',
     longDescription:
-      'A dual-action strip that delivers live-active probiotics alongside metabolism-supporting nutrients — so your gut stays balanced and your body runs efficiently. Shelf-stable, no refrigeration needed. Best for anyone working on gut health, weight goals, or both.',
+      'A dual-action strip that delivers live-active probiotics alongside metabolism-supporting nutrients, so your gut stays balanced and your body runs efficiently. Shelf-stable, no refrigeration needed. Best for anyone working on gut health, weight goals, or both.',
     ingredients: [
       { name: 'Probiotic Blend (5 Billion CFU)', benefit: 'Supports gut, skin, and immune balance' },
       { name: 'Prebiotic Fiber', benefit: 'Feeds beneficial bacteria' },
@@ -403,7 +403,7 @@ export const products: Product[] = [
     subscriptionPrice: sub(10.99),
     images: ['/images/products/energy-strips.png'],
     shortDescription:
-      'Clean, fast-acting energy support — no jitters, no sugar crash, no mid-afternoon slump. Pop, dissolve, go.',
+      'Clean, fast-acting energy support, no jitters, no sugar crash, no mid-afternoon slump. Pop, dissolve, go.',
     longDescription:
       'Clean, fast-acting energy support without the coffee jitters, the sugar crash, or the mid-afternoon slump. Pop one, dissolve, go. Best for long workdays, gym sessions, road trips, and anywhere coffee can\'t follow.',
     ingredients: [
@@ -440,7 +440,7 @@ export const products: Product[] = [
       { name: 'Chamomile Extract', benefit: 'Gentle relaxation cue' },
       { name: 'Passionflower', benefit: 'Eases anxious thoughts before bed' },
     ],
-    howToUse: ['Take 1 strip 20–30 minutes before bed', 'Pair with screen-free wind-down', 'Non-habit forming — safe for nightly use'],
+    howToUse: ['Take 1 strip 20–30 minutes before bed', 'Pair with screen-free wind-down', 'Non-habit forming, safe for nightly use'],
     size: '30 strips · 30-day supply',
     rating: 4.8,
     reviewCount: 1734,
@@ -460,7 +460,7 @@ export const products: Product[] = [
     shortDescription:
       'Stimulant-free appetite + weight management support in a dissolvable strip. No crash, no harsh side effects.',
     longDescription:
-      'Support your goals with a strip that helps balance appetite, reduce cravings, and complement a healthy lifestyle — no stimulants, no crash, no harsh side effects. Best for anyone working toward sustainable weight goals the smart way.',
+      'Support your goals with a strip that helps balance appetite, reduce cravings, and complement a healthy lifestyle, no stimulants, no crash, no harsh side effects. Best for anyone working toward sustainable weight goals the smart way.',
     ingredients: [
       { name: 'Glucomannan Fiber', benefit: 'Promotes satiety and fullness' },
       { name: 'Chromium Picolinate', benefit: 'Supports healthy blood sugar' },
@@ -487,7 +487,7 @@ export const products: Product[] = [
     shortDescription:
       'Discreet, fast-acting blend of botanicals and adaptogens to support libido, energy, and vitality. For him and her.',
     longDescription:
-      'A discreet, fast-acting blend of botanicals and adaptogens designed to support healthy libido, energy, and vitality — for him and her. Best for couples and individuals reconnecting with their drive.',
+      'A discreet, fast-acting blend of botanicals and adaptogens designed to support healthy libido, energy, and vitality, for him and her. Best for couples and individuals reconnecting with their drive.',
     ingredients: [
       { name: 'Maca Root Extract', benefit: 'Adaptogenic libido and stamina support' },
       { name: 'Tribulus Terrestris', benefit: 'Traditional vitality botanical' },
@@ -513,16 +513,16 @@ export const products: Product[] = [
     newArrival: true,
     images: ['/images/products/mushroom-focus-strips.png'],
     shortDescription:
-      'Lion\'s Mane, Cordyceps, and Reishi in a strip — sharper focus, mental clarity, and long-term brain health.',
+      'Lion\'s Mane, Cordyceps, and Reishi in a strip, sharper focus, mental clarity, and long-term brain health.',
     longDescription:
-      'A nootropic blend of functional mushrooms — Lion\'s Mane, Cordyceps, and Reishi — to sharpen focus, boost mental clarity, and protect long-term brain health. Caffeine-free productivity. Best for creators, coders, students, and deep workers.',
+      'A nootropic blend of functional mushrooms, Lion\'s Mane, Cordyceps, and Reishi, to sharpen focus, boost mental clarity, and protect long-term brain health. Caffeine-free productivity. Best for creators, coders, students, and deep workers.',
     ingredients: [
       { name: 'Lion\'s Mane Mushroom', benefit: 'Supports nerve growth factor and cognition' },
       { name: 'Cordyceps Militaris', benefit: 'Cellular energy and stamina' },
       { name: 'Reishi Mushroom', benefit: 'Stress balance and immune resilience' },
       { name: 'Bacopa Monnieri', benefit: 'Memory and learning support' },
     ],
-    howToUse: ['Take 1 strip in the morning before deep work', 'Caffeine-free — safe to layer with coffee', 'Compounds with daily use'],
+    howToUse: ['Take 1 strip in the morning before deep work', 'Caffeine-free, safe to layer with coffee', 'Compounds with daily use'],
     size: '30 strips · 30-day supply',
     rating: 4.8,
     reviewCount: 643,
@@ -540,16 +540,16 @@ export const products: Product[] = [
     subscriptionPrice: sub(10.26),
     images: ['/images/products/bone-support-strips.png'],
     shortDescription:
-      'Calcium, magnesium, vitamin D, and K2 — bone density, joint health, long-term skeletal strength.',
+      'Calcium, magnesium, vitamin D, and K2, bone density, joint health, long-term skeletal strength.',
     longDescription:
-      'A targeted blend of calcium, magnesium, vitamin D, and K2 to support bone density, joint health, and long-term skeletal strength. Easy daily delivery — no horse pills. Best for active adults, aging gracefully, and anyone investing in long-term mobility.',
+      'A targeted blend of calcium, magnesium, vitamin D, and K2 to support bone density, joint health, and long-term skeletal strength. Easy daily delivery, no horse pills. Best for active adults, aging gracefully, and anyone investing in long-term mobility.',
     ingredients: [
       { name: 'Calcium Citrate', benefit: 'Bioavailable bone mineral' },
       { name: 'Magnesium', benefit: 'Cofactor for calcium absorption' },
       { name: 'Vitamin D3', benefit: 'Critical for calcium uptake' },
       { name: 'Vitamin K2 (MK-7)', benefit: 'Directs calcium to bones, not arteries' },
     ],
-    howToUse: ['Take 1 strip daily', 'Best taken with a meal containing fat', 'Daily use compounds — bone is built over years'],
+    howToUse: ['Take 1 strip daily', 'Best taken with a meal containing fat', 'Daily use compounds, bone is built over years'],
     size: '30 strips · 30-day supply',
     rating: 4.7,
     reviewCount: 412,
@@ -567,7 +567,7 @@ export const products: Product[] = [
     subscriptionPrice: sub(10.26),
     images: ['/images/products/cognitive-relax-strips.png'],
     shortDescription:
-      'Calming nootropics that ease anxious thoughts and reduce mental tension — without making you drowsy.',
+      'Calming nootropics that ease anxious thoughts and reduce mental tension, without making you drowsy.',
     longDescription:
       'A balanced blend of calming nootropics designed to ease anxious thoughts, reduce mental tension, and help you stay sharp without feeling wired. Non-drowsy formulation. Best for high performers who need to chill without checking out.',
     ingredients: [
@@ -576,7 +576,7 @@ export const products: Product[] = [
       { name: 'GABA', benefit: 'Quiets mental chatter' },
       { name: 'Magnesium Glycinate', benefit: 'Calms the nervous system' },
     ],
-    howToUse: ['Take 1 strip when stress peaks', 'Non-drowsy — safe for daytime use', 'Up to 2 strips per day'],
+    howToUse: ['Take 1 strip when stress peaks', 'Non-drowsy, safe for daytime use', 'Up to 2 strips per day'],
     size: '30 strips · 30-day supply',
     rating: 4.8,
     reviewCount: 558,

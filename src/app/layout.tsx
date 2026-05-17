@@ -18,7 +18,7 @@ const serif = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://amunity.com'),
   title: {
-    default: 'AmunitY — Defend From Within. Glow From Without.',
+    default: 'AmunitY, Defend From Within. Glow From Without.',
     template: '%s · AmunitY',
   },
   description:
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'AmunitY',
-    title: 'AmunitY — Defend From Within. Glow From Without.',
+    title: 'AmunitY, Defend From Within. Glow From Without.',
     description: 'Clinical-grade skincare and clean supplements for radiance and resilience.',
   },
 };

@@ -30,7 +30,7 @@ export default function ShippingPage() {
           <p className="text-ink/80">
             We offer a 60-day money-back guarantee on every product. If you're not completely satisfied,
             email <a className="underline" href="mailto:hello@amunity.com">hello@amunity.com</a> and we'll
-            issue a full refund — even on opened items. You don't need to ship products back.
+            issue a full refund, even on opened items. You don't need to ship products back.
           </p>
 
           <h2 className="mt-12 font-serif text-2xl">Subscriptions</h2>

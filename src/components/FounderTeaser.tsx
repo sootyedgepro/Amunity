@@ -25,7 +25,7 @@ export default function FounderTeaser() {
           <p className="mt-5 text-muted">
             We started AmunitY because the wellness aisle was confusing, the prestige counter was
             overpriced, and almost no one was tying skin to immunity. So we built the line we
-            wished existed — clinical, clean, and connected.
+            wished existed, clinical, clean, and connected.
           </p>
           <Link href="/about" className="btn-ghost mt-8">
             Read the founder letter

@@ -26,7 +26,7 @@ export default function Hero() {
           </h1>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-muted">
             One ritual. Two outcomes. Clinical-grade skincare on the outside,
-            cellular immunity on the inside — formulated to compound, daily.
+            cellular immunity on the inside, formulated to compound, daily.
           </p>
 
           <ul className="mt-6 grid max-w-md grid-cols-2 gap-3 text-sm">

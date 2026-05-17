@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import ClearCart from './ClearCart';
 
 export const metadata = {
-  title: 'Thank you — AmunitY',
+  title: 'Thank you, AmunitY',
   description: 'Your order is confirmed.',
 };
 

@@ -3,7 +3,7 @@ import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: 'Subscriptions',
-  description: 'How AmunitY Subscribe & Save works — 15% off, ship every 30 days, cancel anytime.',
+  description: 'How AmunitY Subscribe & Save works, 15% off, ship every 30 days, cancel anytime.',
   path: '/subscriptions',
 });
 
@@ -20,7 +20,7 @@ export default function SubscriptionsPage() {
 
         <section className="mt-12 grid gap-6 sm:grid-cols-3">
           {[
-            { n: '15%', t: 'off every order', b: 'Discount auto-applies — no codes, no expiration.' },
+            { n: '15%', t: 'off every order', b: 'Discount auto-applies, no codes, no expiration.' },
             { n: '30 days', t: 'default cadence', b: 'Or pick 45, 60, or 90 days at checkout.' },
             { n: '0 fees', t: 'to skip or cancel', b: 'Pause, swap, or stop anytime. We mean it.' },
           ].map((c) => (
@@ -40,7 +40,7 @@ export default function SubscriptionsPage() {
               instantly.
             </li>
             <li>
-              <strong>2. Choose your cadence</strong> — 30, 45, 60, or 90 days. Default is 30.
+              <strong>2. Choose your cadence</strong>, 30, 45, 60, or 90 days. Default is 30.
             </li>
             <li>
               <strong>3. We ship + charge on your schedule.</strong> You'll get a reminder email 3 days
@@ -48,7 +48,7 @@ export default function SubscriptionsPage() {
             </li>
             <li>
               <strong>4. Manage from your inbox.</strong> Reply to any reminder to skip the next order,
-              change cadence, swap products, or cancel — no portal required.
+              change cadence, swap products, or cancel, no portal required.
             </li>
           </ol>
         </section>
@@ -67,7 +67,7 @@ export default function SubscriptionsPage() {
           <div>
             <h3 className="font-serif text-lg">Can I skip a shipment?</h3>
             <p className="mt-1 text-ink/80">
-              Yes — skip individual deliveries without canceling the whole subscription. You stay in
+              Yes, skip individual deliveries without canceling the whole subscription. You stay in
               the 15% rate as long as the subscription is active.
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function SubscriptionsPage() {
           <div>
             <h3 className="font-serif text-lg">When is my card charged?</h3>
             <p className="mt-1 text-ink/80">
-              When each order ships — not before. You'll always get a reminder 3 days in advance so
+              When each order ships, not before. You'll always get a reminder 3 days in advance so
               you can adjust if you need to.
             </p>
           </div>

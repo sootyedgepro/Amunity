@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Checkout canceled — AmunitY',
+  title: 'Checkout canceled, AmunitY',
   description: 'Your cart is still saved.',
 };
 
